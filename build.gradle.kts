@@ -11,7 +11,7 @@ buildscript {
 plugins {
     idea
     application
-    kotlin("jvm") version "1.3.40"
+    kotlin("jvm") version "2.0.21"
 }
 
 repositories {
