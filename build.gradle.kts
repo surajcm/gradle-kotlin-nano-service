@@ -4,14 +4,14 @@ buildscript {
     }
 
     dependencies {
-        classpath(kotlin("gradle-plugin", version = "1.3.40"))
+        classpath(kotlin("gradle-plugin", version = "1.9.25"))
     }
 }
 
 plugins {
     idea
     application
-    kotlin("jvm") version "1.3.40"
+    kotlin("jvm") version "1.9.25"
 }
 
 repositories {
